@@ -155,7 +155,7 @@ public void runAlgorithm(String path)
  * Print statistics of the latest execution to System.out.
  */
 public void printStatistics() {
-	System.out.println("========== KMEANS - STATS ============");
+	System.out.println("========== STATS ============");
 	System.out.println(" Total time ~: " + (endTimeStamp - startTimestamp)
 			+ " ms");
 	System.out.println(" Max memory:" + MemoryLogger.getInstance().getMaxMemory() + " mb ");
